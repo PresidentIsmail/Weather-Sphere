@@ -1,6 +1,7 @@
 <p align="center">
   <img src="public/readme.png" alt="Project Screenshot" width="800">
 </p>
+https://weather-sphere.netlify.app
 
 
 # WeatherWise App
@@ -19,6 +20,12 @@ WeatherWise is your go-to weather application for quick and accurate weather inf
 - Responsive design for seamless use on all devices
 
 Enjoy the power of WeatherWise and become a weather ninja. Stay ahead of the forecast with this cool and tiny app!
+
+## Live Site
+
+You can see the live site at [weather-sphere.netlify.app](https://weather-sphere.netlify.app).
+
+
 # Installation and Usage
 
 ### Prerequisites
@@ -52,12 +59,6 @@ The app will be running at http://localhost:3000.
 ### Note
 
 Please ensure your API key is kept secure and not shared publicly.
-
-## Live Site
-
-You can see the live site at [weather-sphere.netlify.app](https://weather-sphere.netlify.app).
-
-Enjoy exploring the weather with WeatherWise App!
 
 
 ## License
