@@ -23,7 +23,7 @@ h1 {
 
 .title {
   text-align: center;
-  padding: 1rem;
+  padding-top: 3rem;
   /* background-color: #222; */
   color: #fff;
   opacity: 0.8;
@@ -89,9 +89,7 @@ input:hover::placeholder {
 
 button:focus,
 button:focus-visible {
-  
 }
-
 
 /* Add styles for the clear button */
 .app .clear-button {
@@ -123,7 +121,7 @@ button:focus-visible {
 
 .container.only-search {
   display: flex;
-  flex-direction: row ;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -146,7 +144,7 @@ button:focus-visible {
   margin: 1rem auto;
 }
 
-.description{
+.description {
   position: relative;
   right: -90%;
   transform-origin: 0 0;
@@ -165,7 +163,7 @@ button:focus-visible {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
-.icon img{
+.icon img {
   width: 100px;
   height: 100px;
   display: none;

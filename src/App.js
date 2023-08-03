@@ -2,7 +2,7 @@ import React from "react";
 import { useState, useReducer } from "react";
 
 const api = {
-  key: "5ff65f9312a8cae401312e90a53c45b8",
+  key: process.env.REACT_APP_API_KEY,
   base: "https://api.openweathermap.org/data/2.5/",
 };
 
