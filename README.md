@@ -41,10 +41,10 @@ npm install
 ### Usage
 
 1. Sign up for a free API key from the [OpenWeatherAPI](https://openweathermap.org/api) website.
-
 2. Create a `.env` file in the root directory of your project and add your API key:
-
-3. Start the app:
+3. REACT_APP_API_KEY=your_openweatherapi_key
+4. Ensure the variable name is `REACT_APP_API_KEY` to access the key correctly.
+5. Start the app:
 
 
 The app will be running at http://localhost:3000.
