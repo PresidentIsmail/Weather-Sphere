@@ -8,10 +8,17 @@ const api = {
 
 // set default state
 const initialState = {
-  location: "",
-  weather: {},
-  icon: "",
-  description: "",
+  location: "Soho",
+  weather: {
+    feels_like: 16.22,
+    humidity: 91,
+    pressure: 993,
+    temp: 16.17,
+    temp_max: 17.17,
+    temp_min: 14.98,
+  },
+  icon: "04n",
+  description: "overcast clouds",
 };
 
 const reducer = (state, action) => {
@@ -41,8 +48,14 @@ export default function App() {
   // destructuring weather
   const { temp, humidity, feels_like } = weather;
 
+  console.log(state);
+
   return (
     <div className="app">
+      <div className="title">
+        <h1>Unveil Weather Wonders: Discover Your Oasis</h1>
+      </div>
+
       <div className={`container ${!temp ? "only-search" : ""}`}>
         <div className="top-section">
           <Search dispatch={dispatch} location={location} />
@@ -113,7 +126,7 @@ const Search = ({ dispatch, location }) => {
       });
       dispatch({ type: "SET_ICON", payload: data.weather[0].icon });
 
-      console.log(data);
+      setQuery("");
     }
   };
 

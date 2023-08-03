@@ -1,5 +1,5 @@
 {
-  "name": "weather-display",
+  "name": "weather-sphere",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
