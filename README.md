@@ -53,6 +53,12 @@ The app will be running at http://localhost:3000.
 
 Please ensure your API key is kept secure and not shared publicly.
 
+## Live Site
+
+You can see the live site at [weather-sphere.netlify.app](https://weather-sphere.netlify.app).
+
+Enjoy exploring the weather with WeatherWise App!
+
 
 ## License
 
