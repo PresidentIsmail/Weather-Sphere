@@ -9,7 +9,7 @@ https://weather-sphere.netlify.app
 ![Cool App](https://img.shields.io/badge/Cool%20App-%F0%9F%86%92-blue)
 ![Weather Ninja](https://img.shields.io/badge/Weather-Ninja-green)
 ![Tiny Size](https://img.shields.io/badge/Size-Tiny-yellow)
-
+ 
 
 WeatherWise is your go-to weather application for quick and accurate weather information. With a simple and intuitive interface, the app allows you to enter any location and instantly access real-time weather details. From the current temperature to the 7-day forecast, WeatherWise keeps you informed so you can plan your day with confidence.
 
